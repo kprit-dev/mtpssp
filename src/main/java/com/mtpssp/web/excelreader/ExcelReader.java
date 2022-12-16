@@ -23,7 +23,7 @@ public class ExcelReader {
 		
 		
 		try {
-			System.out.println(System.getProperty("user.dir"+" "));
+			System.out.println(System.getProperty("user.dir"));
 			File f=new File(System.getProperty("user.dir")+"//Kirad.xlsx");
 			//File f=new File("F:\\My_WorkSpace\\maven-archetype-webapp\\"+"\\Kirad.xlsx");
 			
