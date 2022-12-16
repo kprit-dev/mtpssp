@@ -90,6 +90,7 @@ body {
   <a class="active" href="#home" style="font-family: Shivaji01;font-size: 20px;" >Kato tpXaIla</a>
  <a href="#about" style="font-family: Shivaji01;font-size: 20px;">saMsqaoba_la</a>
   <a href="#contact" style="font-family: Shivaji01;font-size: 20px;">saMpk-</a>
+   <a href="#contact" style="font-family: Shivaji01;font-size: 20px;">na.pa.vasaUla</a>
   <div class="search-container">
     <form:form method="GET" action="/maven-archetype-webapp/redirect">
       <input type="text" name="name" id="name" style="font-family: Shivaji01;font-size: 20px;" placeholder="saBaasad XaÜQaaººº">
