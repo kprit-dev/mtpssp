@@ -23,9 +23,9 @@ public class ExcelReader {
 		
 		
 		try {
-			System.out.println(System.getProperty("user.dir"));
-			File f=new File(System.getProperty("user.dir")+"//Kirad.xlsx");
-			//File f=new File("F:\\My_WorkSpace\\maven-archetype-webapp\\"+"\\Kirad.xlsx");
+			//System.out.println(System.getProperty("user.dir"));
+			//File f=new File(System.getProperty("user.dir")+"//Kirad.xlsx");
+			File f=new File("/opt/tomcat/apache-tomcat-9.0.69/excl"+"/Kirad.xlsx");
 			
 			FileInputStream fis=new FileInputStream(f);
 			XSSFWorkbook xw=new XSSFWorkbook(fis);
