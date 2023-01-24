@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.mtpssp.web.excelreader.ConnectDb;
 import com.mtpssp.web.excelreader.ExcelReader;
 
 import java.util.ArrayList;
@@ -43,6 +44,7 @@ public class WelcomeController {
          model.addAttribute("name",StringEscapeUtils.escapeHtml4(val.get(1)) );
          model.addAttribute("shala",val.get(2) );
          model.addAttribute("today", new Date());
+         model.addAttribute("name1",ConnectDb.GetDbData());
       return "index";
     }
     private ArrayList<String> getMessage(String name) {

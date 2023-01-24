@@ -61,6 +61,7 @@ tbody > tr:hover {
 <li style="font-family: Shivaji01;font-size: 20px;">saBaasadacao naaMva : ${name}</li>
 <li style="font-family: Shivaji01;font-size: 20px;">SaaLa : ${shala}</li>
 <li style="font-family: Shivaji01;font-size: 20px;">Kato naM. : ${khate}</li>
+<li style="font-family: Shivaji01;font-size: 20px;">Kato naM. : ${name1}</li>
 </ul>
 </div>
 
