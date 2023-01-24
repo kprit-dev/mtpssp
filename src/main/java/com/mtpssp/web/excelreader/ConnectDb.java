@@ -13,9 +13,10 @@ public class ConnectDb {
 		//here sonoo is database name, root is username and password  
 		Statement stmt=con.createStatement();  
 		ResultSet rs=stmt.executeQuery("select * from sabhasad");  
-		while(rs.next())  
+		while(rs.next()) { 
 		System.out.println(rs.getString(1)+"  "+rs.getString(2)+"  "+rs.getString(3)); 
 		a.add(rs.getString(1));
+		}
 		con.close();  
 		}catch(Exception e){ System.out.println(e);} 
 		return name=a.get(0);
